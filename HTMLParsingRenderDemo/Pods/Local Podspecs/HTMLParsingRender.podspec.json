@@ -1,0 +1,33 @@
+{
+  "name": "HTMLParsingRender",
+  "version": "0.0.1",
+  "summary": "HTMLParsingRender",
+  "description": "解析html自定义标签, 原生渲染",
+  "homepage": "https://github.com/wishingsky/HTMLParsingRender",
+  "license": "MIT",
+  "authors": {
+    "weixiaoyun": "wei_xiaoyun@hotmail.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/wishingsky/HTMLParsingRender.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "HTMLParsingRender",
+    "HTMLParsingRender/*.{h,m}"
+  ],
+  "exclude_files": "HTMLParsingRender/Exclude",
+  "resources": [
+    "HTMLParsingRender/Resources/*.png",
+    "HTMLParsingRender/*.txt"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "DTCoreText": [
+
+    ]
+  }
+}
